@@ -97,12 +97,14 @@ header * {
 
 .searchContainer input:focus {
     width: 200%;
+    transition: all 1.5s ease;
     transform: scale(1.1);
 }
 
 .searchContainer input:hover {
     width: 200%;
-    transition: 1.1s;
+    /* transition: 1.1s ease-in-out; */
+    transition: all 1.5s ease-in-out;
     transform: scale(1.1);
 }
 
@@ -116,7 +118,7 @@ header input {
 
 header input:focus {
     /* border: 3px solid red; */
-    box-shadow: rgba(240, 191, 191, 0.56) 0px 12px 70px 4px;
+    box-shadow: rgba(252, 250, 250, 0.56) 0px 2px 30px 2px;
 }
 
 header button {
