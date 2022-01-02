@@ -49,7 +49,8 @@ This super-hero hunter application build to search for any superhero ,get detail
 --------------------------------------------------------------------------------------------------------------------------------------
   
   Some Results Pages
-  ====================
+    
+
     ![hoem](https://user-images.githubusercontent.com/67006219/147874114-210f5057-5056-4be0-a7d6-9962305643f5.png)
   
     
@@ -58,5 +59,5 @@ This super-hero hunter application build to search for any superhero ,get detail
     ![search](https://user-images.githubusercontent.com/67006219/147874124-fef6e715-ba48-4e86-87cd-d6857e74fda1.png)
 
 
-  
+  ![fav](https://user-images.githubusercontent.com/67006219/147874166-3868c98d-c18c-4f5c-acd7-abb91a97e355.png)
   
