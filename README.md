@@ -50,13 +50,13 @@ This super-hero hunter application build to search for any superhero ,get detail
   
   Some Results Pages
   ====================
-    ![hoem](https://user-images.githubusercontent.com/67006219/147874064-c6ba2596-5d6a-4ce1-a230-c85ac0268dec.png)
+    ![hoem](https://user-images.githubusercontent.com/67006219/147874114-210f5057-5056-4be0-a7d6-9962305643f5.png)
+  
     
-    ![search](https://user-images.githubusercontent.com/67006219/147874068-fa43b084-554f-49ad-b134-d57135448b70.png)
+    SEARCH
+    
+    ![search](https://user-images.githubusercontent.com/67006219/147874124-fef6e715-ba48-4e86-87cd-d6857e74fda1.png)
 
-    ![fav](https://user-images.githubusercontent.com/67006219/147874070-fbc4ee2a-848d-4345-863b-b1fb3cc9349c.png)
-
-    ![details](https://user-images.githubusercontent.com/67006219/147874072-381b0059-d584-4ef4-892c-4564449ba3b6.png)
 
   
   
