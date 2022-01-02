@@ -7,7 +7,7 @@ For Live Demo <a href="https://distracted-noyce-2332e4.netlify.app/index.html">C
 This super-hero hunter application build to search for any superhero ,get details about any superhero and to add these superheroes to favourite list.
 
 
-=======================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------
 
 <h3> File Structure </h3>
   <h4> assets <h4>
@@ -36,7 +36,7 @@ This super-hero hunter application build to search for any superhero ,get detail
   <h4> index.html </h4>
   <p> This is the Entry Point for this Project. </p>
   
-  =============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------
   
   API Used 
   ==================
@@ -46,9 +46,17 @@ This super-hero hunter application build to search for any superhero ,get detail
   By Clicking on Name of super hero you will redirect to details page you can see the details of super hero.
   </p>
   
-  ============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------
   
   Some Results Pages
   ====================
+    ![hoem](https://user-images.githubusercontent.com/67006219/147874064-c6ba2596-5d6a-4ce1-a230-c85ac0268dec.png)
+    
+    ![search](https://user-images.githubusercontent.com/67006219/147874068-fa43b084-554f-49ad-b134-d57135448b70.png)
+
+    ![fav](https://user-images.githubusercontent.com/67006219/147874070-fbc4ee2a-848d-4345-863b-b1fb3cc9349c.png)
+
+    ![details](https://user-images.githubusercontent.com/67006219/147874072-381b0059-d584-4ef4-892c-4564449ba3b6.png)
+
   
   
