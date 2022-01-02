@@ -14,7 +14,7 @@ checkLocalStorage();
 searchBar.addEventListener('keyup', (e) => {
     const searchString = e.target.value;
     console.log("Searching for: ", searchString);
-    if (searchString.length < 2) { // avoiding huge number of search results
+    if (searchString.length < 3) { // avoiding huge number of search results
         document.getElementById('results').innerHTML = 'Write Atleast 3 Characters';
     } else {
         searchHero(searchString);
