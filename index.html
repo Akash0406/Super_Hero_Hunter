@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/assets/images/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Hunter</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="appName center"> <img class="logo" src="/assets/images/logo.jpg" alt=""><a href='index.html'>SuperHero_Hunter
+            </a></div>
+        <div class="searchContainer center">
+            <input type="text" id="searchData" placeholder="Search Hero By Name..">
+        </div>
+        <div class="favouriteRouter center">
+            <button class="btnfos-5"><a href="/pages/Favourites.html">FAVOURITES</a></button>
+        </div>
+    </header>
+
+
+    <!-- Notification Alert -->
+    <div id="alert" style="visibility:hidden" class="success">Success Message</div>
+    <div id="alert" style="visibility:hidden" class="failure">Error Message</div>
+
+
+    <!-- Main Search results -->
+    <div id="resultContainer">
+        <div id='results'>
+
+            <p class="notice">Search Your Heroes</p>
+
+        </div>
+    </div>
+
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>

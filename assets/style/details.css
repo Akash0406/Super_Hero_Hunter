@@ -1,0 +1,298 @@
+* {
+    font-family: Xolonium;
+    color: white;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#alert {
+    position: sticky;
+    top: 30px;
+    border-radius: 10px;
+    z-index: 99;
+    width: max-content;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    right: 250px;
+    transition-duration: 1000ms;
+}
+
+.success {
+    color: rgb(66, 187, 66);
+}
+
+.failure {
+    color: rgb(199, 69, 69);
+}
+
+body,
+html {
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px 0px rgb(43, 255, 0);
+    z-index: 99;
+}
+
+header * {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.favourite-router * {
+    border-radius: 10px;
+}
+
+.btnfos-5 *:hover {
+    transform: scale(1.2);
+    /* background-color: rgb(255, 255, 255); */
+    color: red;
+}
+
+.app-name {
+    padding-left: 20px;
+}
+
+.app-name a {
+    text-decoration: none;
+    color: red;
+}
+
+header button {
+    margin-right: 20px;
+}
+
+header button a {
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1vh;
+}
+
+#top-bar {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #1f08f0;
+    z-index: 10;
+}
+
+#top-bar * {
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    background: transparent;
+}
+
+#top-bar *:hover {
+    color: rgb(72, 255, 0);
+}
+
+#top-bar div:hover {
+    transform: scale(1.2);
+    background: transparent;
+}
+
+.anchor {
+    display: block;
+    height: 200px;
+    /*same height as header*/
+    margin-top: -200px;
+    /*same height as header*/
+    visibility: hidden;
+    transition-duration: 200ms;
+}
+
+.down {
+    color: rgb(21, 67, 219);
+}
+
+.down:hover,
+.down:link {
+    border-bottom: 2px solid white;
+    border-radius: 40px;
+}
+
+#data-container {
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 30px;
+    padding: 100px;
+    align-items: center;
+    /* background-color: white; */
+    /* border-radius: 50%; */
+    /* border: 3px solid blue; */
+}
+
+.img-i {
+    border-radius: 50%;
+    border: 3px solid blue;
+}
+
+.img-i:hover {
+    box-shadow: 0px 0px 2px 4px rgb(5, 42, 250);
+    /*any color you want*/
+}
+
+#fav_btn {
+    margin-top: 30px;
+    border-radius: 100%;
+    /* background-color: white; */
+}
+
+#fav_btn:hover {
+    transform: scale(0.8);
+}
+
+#detail-container {
+    position: relative;
+    width: 70%;
+}
+
+.detail-item {
+    padding: 20px;
+    width: 80%;
+}
+
+#stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+#stat-names {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+#stat-names span {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#stat-bars {
+    width: 80%;
+}
+
+.bar-container {
+    background-color: rgba(0, 0, 0, 0);
+    width: 60%;
+    padding: 5px;
+}
+
+.bar {
+    /* background-color: rgb(25, 0, 255); */
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 600ms;
+}
+
+.bar:hover {
+    box-shadow: 0px 0px 2px 4px rgb(234, 235, 236);
+}
+
+.logo {
+    width: 40px;
+    margin: 10px;
+}
+
+.appName {
+    padding-left: 20px;
+}
+
+.appName a {
+    text-decoration: none;
+    color: #911F27;
+}
+
+.combat {
+    background-color: rgb(238, 6, 6)
+}
+
+.durability {
+    background-color: rgb(179, 255, 0)
+}
+
+.intelligence {
+    background-color: rgb(0, 238, 255)
+}
+
+.power {
+    background-color: rgb(85, 5, 5)
+}
+
+.speed {
+    background-color: rgb(48, 236, 211)
+}
+
+.strength {
+    background-color: rgb(25, 0, 255)
+}
+
+.btnfos-5 {
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+}
+
+.btnfos-5:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-offset: 15px;
+    outline-color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 2px #427388;
+}
