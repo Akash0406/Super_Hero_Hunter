@@ -6,6 +6,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.heading {
+    font-weight: 600;
+}
+
 #alert {
     position: absolute;
     top: 30px;
