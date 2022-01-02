@@ -3,7 +3,7 @@
 For Live Demo <a href="https://distracted-noyce-2332e4.netlify.app/index.html">Click Here</a>
 
 <h2>SUPER HERO HUNTER APP </h1>
---------------------------------------------------------------------------------------------------------------------------------------
+
 This super-hero hunter application build to search for any superhero ,get details about any superhero and to add these superheroes to favourite list.
 
 
